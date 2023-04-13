@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/mailto', (req, res) => {
-  res.redirect("mailto:tgusewelle@phpc.org")
+  res.redirect("mailto:email@email.org")
 })
 
 app.listen(port, () => {
